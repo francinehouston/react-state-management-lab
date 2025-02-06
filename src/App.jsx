@@ -107,7 +107,8 @@ const App = () => {
       setZombieFighters(zombieFighters.filter((f) => f.id !== fighter.id)); // Remove from zoombieFighters
 
     } else {
-      console.log("Not enough money to add this fighter!");
+      alert("Not enough money"); // Show alert
+      console.log("Not enough money to add this fighter!"); // Log message to the console
     }
   };
 
